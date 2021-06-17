@@ -1,0 +1,207 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "skoXdD1kXUMVpincrRuSob",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "GFQy7IrqN9Eh",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "skoXdD1kXUMVpincrRuSob",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "UaNsfUdH8b",
+          "name": "MobileSignalIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__MobileSignal.jsx"
+        },
+        {
+          "id": "-YZCYsSwNQ",
+          "name": "WifiIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Wifi.jsx"
+        },
+        {
+          "id": "qw2Y0oUvkP",
+          "name": "BatteryIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Battery.jsx"
+        },
+        {
+          "id": "F3snXgWF1y0",
+          "name": "Ellipse5Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse5.jsx"
+        },
+        {
+          "id": "8hMosncB-3Z",
+          "name": "LeftActionableIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__LeftActionable.jsx"
+        },
+        {
+          "id": "wWD8P5j5pHb",
+          "name": "RightActionableIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__RightActionable.jsx"
+        },
+        {
+          "id": "bEJ1h7omIOE",
+          "name": "RightActionable2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__RightActionable2.jsx"
+        },
+        {
+          "id": "68gnK2psoEx",
+          "name": "Line5Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Line5.jsx"
+        },
+        {
+          "id": "6T7iYc4Y873",
+          "name": "EllipseIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse.jsx"
+        },
+        {
+          "id": "zdiIVD2LBH8",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group2.jsx"
+        },
+        {
+          "id": "L1HVn3C7ZSg",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group3.jsx"
+        },
+        {
+          "id": "TrYbCCFwiiA",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group4.jsx"
+        },
+        {
+          "id": "xvHj_Fev2ku",
+          "name": "Group5Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group5.jsx"
+        },
+        {
+          "id": "gO-2C1mVZ2L",
+          "name": "Group6Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group6.jsx"
+        },
+        {
+          "id": "q5G7mDR9Y_o",
+          "name": "Line14Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Line14.jsx"
+        },
+        {
+          "id": "aASMKQX9Wqq",
+          "name": "Rectangle35Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Rectangle35.jsx"
+        },
+        {
+          "id": "hOyySJmZ8Jk",
+          "name": "IconOutlinelightningBoltIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__IconOutlinelightningBolt.jsx"
+        },
+        {
+          "id": "t2FU-EY4u",
+          "name": "Ellipse4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse4.jsx"
+        },
+        {
+          "id": "ZCtI7nunO1",
+          "name": "IconOutlinesparklesIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__IconOutlinesparkles.jsx"
+        },
+        {
+          "id": "5KCZrpIEwSV",
+          "name": "IconSolidsunIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__IconSolidsun.jsx"
+        },
+        {
+          "id": "roK2mA-z8i8",
+          "name": "IconSolidlightningBoltIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__IconSolidlightningBolt.jsx"
+        },
+        {
+          "id": "T5jiXwevxob",
+          "name": "Line18Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Line18.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "xPRcWH_qQ",
+          "name": "Rectangle 24",
+          "filePath": "../public/plasmic/blank_project/images/rectangle24.jpeg"
+        },
+        {
+          "id": "SHqZYpgQhD",
+          "name": "Image",
+          "filePath": "../public/plasmic/blank_project/images/image.png"
+        },
+        {
+          "id": "plAcPILF48",
+          "name": "Ellipse 1",
+          "filePath": "../public/plasmic/blank_project/images/ellipse1.png"
+        },
+        {
+          "id": "YLmYHKGYjg",
+          "name": "Ellipse 2",
+          "filePath": "../public/plasmic/blank_project/images/ellipse2.svg"
+        },
+        {
+          "id": "B4XoYe8l3KV",
+          "name": "Group",
+          "filePath": "../public/plasmic/blank_project/images/group.svg"
+        },
+        {
+          "id": "L6O-oSJ1leI",
+          "name": "wireless-charging 1",
+          "filePath": "../public/plasmic/blank_project/images/wirelessCharging1.svg"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "UcP14XnZtCPuaejG74hYfRsMiqbUmbEb5gcjReTZGmMYgNUyWMp1xQwZsZxPYjRzQqPpxCSOnrwogK71QjVhA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "lO__C9HYfNzn",
+        "name": "Screen",
+        "projectId": "skoXdD1kXUMVpincrRuSob",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.154",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.154/dist/plasmic.schema.json"
+}
